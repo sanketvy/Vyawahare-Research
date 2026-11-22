@@ -35,26 +35,19 @@ The equity research platform serves as the real-world sandbox and by-product of 
 
 ---
 
-## 📂 Target Project Layout
+## 📂 Repository Structure
 
 ```text
 vyawahare-research/
 ├── GEMINI.md                    # Persistent agent context & learning roadmap
 ├── AGENTS.md -> GEMINI.md       # Symlink for agent compatibility
 ├── agent.md -> GEMINI.md        # Symlink for agent compatibility
-├── ai-engine/                   # AI/ML pipelines
-│   ├── models/                  # SLM architectures, pretraining & fine-tuning
-│   ├── inference/               # Serving (vLLM, Ollama), quantization
-│   ├── rag/                     # Parsers, chunkers, vector DB connectors
-│   ├── agents/                  # Multi-agent workflows & orchestration
-│   └── mcp/                     # MCP servers & financial scrapers
-├── backend/                     # Java Spring Boot microservices
-│   ├── api-gateway/             # Gateway service
-│   ├── research-service/        # Core business logic
-│   └── ai-bridge-service/       # gRPC/REST bridge to Python AI services
-├── frontend/                    # ReactJS application
-├── data/                        # Corpora, filings, scrapers
-└── deployment/                  # Docker, Compose, Kubernetes, CI/CD
+├── frontend/                    # ReactJS application (UI, financial charts, live agent streams)
+├── backend/                     # Java Spring Boot enterprise microservices & Python AI bridge
+├── infrastructure/              # Docker, Docker Compose, Kubernetes, CI/CD deployment configs
+├── research/                    # Indian market domain knowledge, SEBI filings, financial & forensic models
+├── playground/                  # Rapid prototyping sandbox, scratch scripts, notebooks, exploratory lab
+└── technology/                  # Deep-dive AI/ML implementations (SLMs, pretraining, fine-tuning, RAG, agents, MCP)
 ```
 
 ---

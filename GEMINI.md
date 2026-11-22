@@ -69,27 +69,18 @@
 
 ---
 
-## 4. Target Project Layout
+## 4. Repository Structure
 ```text
 vyawahare-research/
 ├── GEMINI.md                    # This persistent configuration file
 ├── AGENTS.md -> GEMINI.md       # Symlink for agent compatibility
 ├── agent.md -> GEMINI.md        # Symlink for agent compatibility
-├── ai-engine/                   # AI/ML learning & implementation pipelines
-│   ├── models/                  # SLM architectures, pretraining, fine-tuning scripts
-│   ├── inference/               # Quantization, vLLM/Ollama serving, benchmarking
-│   ├── rag/                     # Parsers, chunkers, vector DB connectors, rerankers
-│   ├── agents/                  # Multi-agent workflows & orchestration
-│   └── mcp/                     # MCP servers & tool definitions
-├── backend/                     # Java Spring Boot microservices
-│   ├── api-gateway/             # Gateway service
-│   ├── research-service/        # Core business logic & workflow coordination
-│   └── ai-bridge-service/       # Interface with Python AI services (gRPC/REST)
-├── frontend/                    # ReactJS application
-│   ├── src/
-│   └── package.json
-├── data/                        # Corpora, scrapers, sample BSE/NSE filings
-└── deployment/                  # Docker, Compose, Kubernetes, CI/CD
+├── frontend/                    # ReactJS application (UI, financial charts, live agent streams)
+├── backend/                     # Java Spring Boot enterprise microservices & Python AI bridge
+├── infrastructure/              # Docker, Docker Compose, Kubernetes, CI/CD deployment configs
+├── research/                    # Indian market domain knowledge, SEBI filings, financial & forensic models
+├── playground/                  # Rapid prototyping sandbox, scratch scripts, notebooks, exploratory lab
+└── technology/                  # Deep-dive AI/ML implementations (SLMs, pretraining, fine-tuning, RAG, agents, MCP)
 ```
 
 ---
