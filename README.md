@@ -42,6 +42,7 @@ vyawahare-research/
 ├── GEMINI.md                    # Persistent agent context & learning roadmap
 ├── AGENTS.md -> GEMINI.md       # Symlink for agent compatibility
 ├── agent.md -> GEMINI.md        # Symlink for agent compatibility
+├── learning/                    # 🎓 Knowledge Base, Concept Notes & Interview Goldmine
 ├── frontend/                    # ReactJS application (UI, financial charts, live agent streams)
 ├── backend/                     # Java Spring Boot enterprise microservices & Python AI bridge
 ├── infrastructure/              # Docker, Docker Compose, Kubernetes, CI/CD deployment configs
