@@ -15,7 +15,8 @@ learning/
 ├── README.md                          # This orientation guide
 ├── ROADMAP.md                         # Technical curriculum & concept mastery tracker
 ├── 01-ai-and-ml/                      # AI foundations, SLMs, Pretraining, RAG, Agents, MCP
-│   └── README.md
+│   ├── README.md
+│   └── SLM_BUILDING_PLAN.md           # 🏗️ Active Phase 1: End-to-end SLM building roadmap
 ├── 02-spring-boot-microservices/      # Spring Boot 3, Microservice patterns, gRPC, Kafka
 │   └── README.md
 ├── 03-react-and-frontend/             # React internals, state management, SSE/WebSockets
